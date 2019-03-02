@@ -25,14 +25,12 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <link id="shLink" href="index.files/sheet012.htm">
 <link id="shLink" href="index.files/sheet013.htm">
 <link id="shLink" href="index.files/sheet014.htm">
-<link id="shLink" href="index.files/sheet015.htm">
-<link id="shLink" href="index.files/sheet016.htm">
 
 <link id="shLink">
 
 <script language="JavaScript">
 <!--
- var c_lTabs=16;
+ var c_lTabs=14;
 
  var c_rgszSh=new Array(c_lTabs);
  c_rgszSh[0] = "公司信息  促销";
@@ -43,14 +41,12 @@ xmlns="http://www.w3.org/TR/REC-html40">
  c_rgszSh[5] = "显卡";
  c_rgszSh[6] = " 联想 苹果 IBM 微软";
  c_rgszSh[7] = "DELL品牌机";
- c_rgszSh[8] = "一体机 ";
- c_rgszSh[9] = "显示器 ";
- c_rgszSh[10] = "存储卡";
- c_rgszSh[11] = "机箱 电源 散热";
- c_rgszSh[12] = "投影仪";
- c_rgszSh[13] = "TP 迅捷 网络";
- c_rgszSh[14] = "质保条例";
- c_rgszSh[15] = "游戏主机怎么配";
+ c_rgszSh[8] = "显示器 ";
+ c_rgszSh[9] = "存储卡";
+ c_rgszSh[10] = "机箱 电源 散热";
+ c_rgszSh[11] = "投影仪";
+ c_rgszSh[12] = "质保条例";
+ c_rgszSh[13] = "游戏主机怎么配";
 
 
 
@@ -80,7 +76,7 @@ function fnGetIEVer()
 function fnBuildFrameset()
 {
  var szHTML="<frameset rows=\"*,18\" border=0 width=0 frameborder=no framespacing=0>"+
-  "<frame src=\""+document.all.item("shLink")[1].href+"\" name=\"frSheet\" noresize>"+
+  "<frame src=\""+document.all.item("shLink")[8].href+"\" name=\"frSheet\" noresize>"+
   "<frameset cols=\"54,*\" border=0 width=0 frameborder=no framespacing=0>"+
   "<frame src=\"\" name=\"frScroll\" marginwidth=0 marginheight=0 scrolling=no>"+
   "<frame src=\"\" name=\"frTabs\" marginwidth=0 marginheight=0 scrolling=no>"+
@@ -360,36 +356,28 @@ function fnSetActiveSheet(iSh)
     <x:WorksheetSource HRef="index.files/sheet008.htm"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>一体机 </x:Name>
+    <x:Name>显示器 </x:Name>
     <x:WorksheetSource HRef="index.files/sheet009.htm"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>显示器 </x:Name>
+    <x:Name>存储卡</x:Name>
     <x:WorksheetSource HRef="index.files/sheet010.htm"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>存储卡</x:Name>
+    <x:Name>机箱 电源 散热</x:Name>
     <x:WorksheetSource HRef="index.files/sheet011.htm"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>机箱 电源 散热</x:Name>
+    <x:Name>投影仪</x:Name>
     <x:WorksheetSource HRef="index.files/sheet012.htm"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>投影仪</x:Name>
+    <x:Name>质保条例</x:Name>
     <x:WorksheetSource HRef="index.files/sheet013.htm"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>TP 迅捷 网络</x:Name>
-    <x:WorksheetSource HRef="index.files/sheet014.htm"/>
-   </x:ExcelWorksheet>
-   <x:ExcelWorksheet>
-    <x:Name>质保条例</x:Name>
-    <x:WorksheetSource HRef="index.files/sheet015.htm"/>
-   </x:ExcelWorksheet>
-   <x:ExcelWorksheet>
     <x:Name>游戏主机怎么配</x:Name>
-    <x:WorksheetSource HRef="index.files/sheet016.htm"/>
+    <x:WorksheetSource HRef="index.files/sheet014.htm"/>
    </x:ExcelWorksheet>
   </x:ExcelWorksheets>
   <x:Stylesheet HRef="index.files/stylesheet.css"/>
@@ -398,7 +386,7 @@ function fnSetActiveSheet(iSh)
   <x:WindowTopX>0</x:WindowTopX>
   <x:WindowTopY>0</x:WindowTopY>
   <x:TabRatio>814</x:TabRatio>
-  <x:ActiveSheet>1</x:ActiveSheet>
+  <x:ActiveSheet>8</x:ActiveSheet>
   <x:FirstVisibleSheet>1</x:FirstVisibleSheet>
   <x:ProtectStructure>False</x:ProtectStructure>
   <x:ProtectWindows>False</x:ProtectWindows>
@@ -407,7 +395,7 @@ function fnSetActiveSheet(iSh)
 </head>
 
 <frameset rows="*,39" border=0 width=0 frameborder=no framespacing=0>
- <frame src="index.files/sheet002.htm" name="frSheet">
+ <frame src="index.files/sheet009.htm" name="frSheet">
  <frame src="index.files/tabstrip.htm" name="frTabs" marginwidth=0 marginheight=0>
  <noframes>
   <body>
